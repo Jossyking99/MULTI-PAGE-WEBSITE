@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Site  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/0462519f1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="background-image">
+            <div class="header">
+                <div>
+                    <a href="index.html"><img src="img/Tglobe-logo.png" width="200px"></a>
+                </div>
+                    
+    
+                <div class="menu" id="menu1">
+                    <div class="close">
+                        <img src="img/close button.png" width="20px" alt="" onclick="hideMenu()">
+                    </div>
+                    <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                    <span><a href="">HOME</a></span>
+                    <span><a href="">ABOUT</a></span>
+                    <span><a href="">COURSE</a></span>
+                    <span><a href="">BLOG</a></span>
+                    <span><a href="">CONTACT</a></span>
+                   
+                    <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+                </div>
+                <div class="bar">
+                    <img src="img/menu bar.png" width="20px" alt="" onclick="showMenu()">
+                </div>
+            </div>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Making website is now one of the easiest thihg in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        
+        </div>
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Advanced Training on HTML, CSS and Bootstrap</p>
+            <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Connect with your goals. Learn the skills that will set you apart in the Marketplace. Register for our Master class on REACT,REACT NATIVE, BOOTSTRAP and NODEJS </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Connect with your goals. Learn the skills that will set you apart in the Marketplace. Register for our Master class on REACT,REACT NATIVE, BOOTSTRAP and NODEJS</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-graduation</h3>
+                <p>We give the opportunity to creat stunning websites, web and mobile application. Programming can make all these amazing dreams of creating your own world come true.</p>
+            </div>
+        </div>
+        </section>
+
+        <!-- Campus -->
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Interact and meet other international students. We hope this boost and inspires you to learn more and become more.</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="img/london.png" alt="">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="img/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="img/washington.png" alt="">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Connect with your goals. Learn the skills that will set you apart in the Marketplace. Register for our Master class on REACT,REACT NATIVE, BOOTSTRAP and NODEJS</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Get amazing sources that will get you going</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Connect with your goals. Learn the skills that will set you apart in the Marketplace. Register for our Master class on REACT,REACT NATIVE, BOOTSTRAP and NODEJS</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Get amazing sources that will get you going</p>
+            </div>
+        </div>
+    </section>
+
+    <!---- Testimonials ---->
+
+    <section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>Ypn Connect is the best place to learn</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="img/user1.jpg" alt="">
+                <div>
+                    <p>When I got here,I was a novice, but now I can build amazing things.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="img/user2.jpg" alt="">
+                <div>
+                    <p>They have professional tutors and great resources.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- Call To Action ---->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
+        <a href="" class="hero-btn"CONTACT US></a>
+    </section>
+
+    <!----Footer ---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lets train you and connect you to that tech job of your dream</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Ypn Connect-soft</p>
+    </section>
+   
+    
+    
+    <script>
+        var menu1 = document.getElementById("menu1");
+
+        function showMenu(){
+            menu1.style.right = "0";
+        }  
+        function hideMenu(){
+            menu1.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>
